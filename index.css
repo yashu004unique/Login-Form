@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAGtL17v19ZHJqcxJHDOUJ2mmg_xm_jBH0zA&s");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background: white;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+    display: flex;
+    width: 500px;
+    height: 400px;    
+    align-items: center;    
+}
+
+.card-img img{   
+    height: 300px;       
+}
+
+.card-login{
+    width:300px;    
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    margin-right: -250px;
+    margin-left: -100px;
+}
+.login-header{
+    padding: 10px;
+}
+
+.login-content{
+    padding: 10px;
+    gap: 20px;
+}
+
+.login-field{
+    padding:5px;
+}
+
+.login-field label{
+    font-size: 18px;
+}
+
+.login-field input{
+    width: 90%;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    outline: 1px solid #7c7c7c;
+    margin-top: 5px;    
+}
+
+.login-field-check{
+    padding: 5px;
+}
+
+.login-button{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-button button{
+    padding: 10px 21px;
+    align-items: center;
+    background: crimson;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: .8s;
+}
+.login-button button:hover{
+    transform: scale(0.8);
+}
+
+.login-field input:hover{
+    border: 2px solid #2e49d1;
+}
+.name h1{
+    color: blueviolet
+}
